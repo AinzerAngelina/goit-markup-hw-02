@@ -12,9 +12,12 @@
 }
 
 .link {text-decoration: none;}
+
+
 body {
     font-family: 'Roboto', sans-serif;
-    
+    background-color :var(--grey-color);
+   
 }
 
 
@@ -22,16 +25,17 @@ body {
 
 .menu.link { 
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5;
 letter-spacing: 0.02em;
-
-    color: var(--grey-color) }
-
-    .menu.link:hover,
-.menu.link:focus {
-    color: var(--blue-color);
+    color: var(--grey-color) 
 }
+
+.menu.link:hover,
+.menu.link:focus {
+
+}
+
 
 .contact-phone-number{ 
 font-weight: 400;
@@ -76,6 +80,8 @@ line-height: 1.07;
 
 text-align: center;
 letter-spacing: 0.02em;
+max-width: 496px;
+margin-right: auto;
 
 /* color: #FFFFFF; */
 
@@ -151,14 +157,15 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 
-color: var(--blue-color);
+color: var(--white-color);
 
   }
 
-  .logotype link{
+  .logotype link {
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
-color: var(--white-color)
+color:  var(--white-color) 
   }
+
